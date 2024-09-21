@@ -25,7 +25,7 @@ export default function Portfolio() {
             </div>
           </div>
 
-          <div className="max-h-[600px] grid grid-cols-3 mt-10 overflow-clip">
+          <div className="relative max-h-full grid sm:grid-cols-3 mt-10 sm:overflow-clip grid-cols-1">
             <div className="">
               <Image alt="image1" src="https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               width={692} height={693} objectFit="cover"></Image>
